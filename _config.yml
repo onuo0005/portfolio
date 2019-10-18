@@ -1,3 +1,13 @@
 permalink: pretty
-
 theme: jekyll_patternbot
+
+patternbot:
+  title: "portfolio"
+  description: |
+    My portfolio.
+  font_url: "https://fonts.googleapis.com/css?family=Lato:400,400i,700,900&display=swap"
+  colors:
+    background: "ffffff"
+  color.primary: |
+
+  color.secondary: |

@@ -1,0 +1,132 @@
+.look{
+  margin-left: 250px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.artwork img {
+  width: 80%;
+  text-align: center;
+}
+
+.artwork {
+  margin-top: 30px;
+  text-align: center;
+  font-family: var(--font-primary);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 65em;
+  width: 100%;
+}
+
+.flood {
+  margin-left: 250px;
+}
+
+.word p{
+  margin-bottom: .5rem;
+}
+
+.low {
+  margin-left: 250px;
+}
+
+.about {
+  margin: 10em 5em;
+  font-family: var(--font-primary);
+}
+
+.contact {
+  text-align: center;
+  font-family: var(--font-primary);
+  margin-left: 250px;
+}
+
+@media screen and (max-width: 820px) {
+  .look{
+    margin-left: 150px;
+  }
+
+  .flood {
+    margin-left: 150px;
+  }
+
+  .low {
+    margin-left: 150px;
+  }
+
+  .contact {
+    margin-left: 150px;
+  }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+
+  .about {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .look{
+    margin-left: 100px;
+  }
+
+  .flood {
+    margin-left: 100px;
+  }
+
+  .low {
+    margin-left: 100px;
+  }
+
+  .contact {
+    margin-left: 100px;
+  }
+
+  .about {
+    font-size: 8px;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .contact img {
+    width: 50%;
+  }
+
+  .contact {
+    font-size: 10px;
+  }
+
+
+}
